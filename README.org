@@ -6,8 +6,8 @@ modules, seemlessly.
 
 Add following to deps.edn or your cljs deps file
 #+begin_src clojure
-{:deps {omnyway-labs/amplitude
-        {:git/url "https://github.com/omnyway-labs/amplitude.git"
+{:deps {icylisper/amplitude
+        {:git/url "https://github.com/icylisper/amplitude.git"
          :sha "016274a2086818b1a540adc13f4fdf22b7021b5b"}}}
 #+end_src
 
@@ -382,7 +382,7 @@ and SessionStorage. This is useful when caching resultsets
 
 * License - Apache 2.0
 
-Copyright 2020-21 Omnyway Inc.
+Copyright 2022-23 Isaac Praveen.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
